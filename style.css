@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  background: #ec5242;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.middle-bar {
+  margin-top: 0;
+}
+
+/* When navigation is clicked */
+
+.navbar-toggler .top-bar {
+  margin-top: 0;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: opacity(0);
+}
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0;
+  transform: rotate(-135deg);
+}
+
+/* State when the navbar is collapsed */
+
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -9px;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: opacity(100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 9px;
+  transform: rotate(0deg);
+}
+
+.navbar-brand {
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.nav-link {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.nav-item a:hover {
+  border-bottom: 2px solid #ec5242;
+  width: fit-content;
+}
+
+#campaign-link {
+  background-color: #271c1b;
+  color: #fff;
+  width: fit-content;
+}
+
+#campaign-link:hover {
+  background-color: #ec5242;
+  color: #fff;
+  border-bottom: none;
+}
+
+h1 {
+  background-image: url(./images/about-img-2.jpg);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(247, 132, 65, 0.651);
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+}
+
+.p-text {
+  margin-top: 20px;
+  height: 100%;
+  width: fit-content;
+  font-family: 'Lato', sans-serif;
+  border: white 4px solid;
+  background-color: rgb(247, 247, 248);
+}
+
+.h-text h4 {
+  font-size: 45px;
+  color: #ec5242;
+}
+
+.p-text p {
+  font-size: 20px;
+  line-height: 2rem;
+  margin-top: 10px;
+}
+
+.h2-text.text-center h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 60px;
+  color: #ec5242;
+}
+
+.h2-text {
+  margin-top: 30px;
+}
+
+.guide_bar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 1px solid rgb(239, 81, 60);
+  margin: 0 auto 54px;
+}
+
+.card-section {
+  background-image: url(./images/carbon-fibre-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-header.text-center.pb-2 h2 {
+  margin-top: 40px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+i {
+  font-size: 20px;
+}
+
+.card-body {
+  background-color: rgba(139, 131, 131, 0.301);
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body:hover {
+  border: 2px solid #fff;
+}
+
+.btn.btn-danger {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  background-color: #ec5242;
+}
+
+.event-section {
+  height: 100%;
+  background-image: url(./images/main-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+.card-content {
+  font-family: 'Lato', sans-serif;
+  font-size: medium;
+}
+
+.name {
+  font-weight: bold;
+}
+
+hr {
+  height: 2px;
+  color: #ec5242;
+  width: 100px;
+  margin: 0;
+}
+
+#card-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+small {
+  color: #ec5242;
+}
+
+.global-sponsors {
+  background-color: rgba(51, 45, 45, 0);
+}
+
+.sponsor-class {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#sponsor-logo {
+  width: 200px;
+  margin: 6px;
+}
+
+footer {
+  height: 125px;
+  color: #fff;
+}
+
+/* About section */
+
+.brandLogo {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: black;
+}
+
+.about-description {
+  height: 100%;
+  width: fit-content;
+  font-family: 'Lato', sans-serif;
+  border: white 4px solid;
+  background-color: rgb(247, 247, 248);
+  padding: 10px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.about-description p {
+  font-size: 18px;
+  line-height: 2rem;
+}
+
+#mask {
+  border-radius: 8px;
+}
+
+#mask-2 {
+  background-color: rgba(251, 251, 251, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  .h-text h4 {
+    font-size: 30px;
+    color: #ec5242;
+  }
+
+  h1 {
+    background-image: url(./images/about-img-2.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(247, 132, 65, 0.651);
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    flex-wrap: wrap;
+  }
+
+  .p-text p {
+    font-size: 17px;
+  }
+
+  .about-description {
+    height: 100%;
+    width: fit-content;
+    font-family: 'Lato', sans-serif;
+    border: white 4px solid;
+    background-color: rgb(247, 247, 248);
+    padding: 10px;
+    margin: 8px;
+  }
+
+  .about-description p {
+    font-size: 15px;
+    line-height: 2rem;
+  }
+
+  .event-section {
+    padding: 30px;
+  }
+}
