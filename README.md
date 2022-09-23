@@ -4,7 +4,8 @@
 
 > This is a capstone project for module 1 in which a website is made for an online tech conference. The complete website is responsive and is made for 2 screen sizes i.e for mobile max width 768px and desktop 768px <. The featured speakers cards are displayed dynamically through JavaScript. Bootstrap was used throughout the entire design of the project as it made the design look better and minimised the CSS and Javascript used.
 
-live site : https://keebot-png.github.io/Capstone-project-1/
+## Live site
+https://keebot-png.github.io/Capstone-project-1/
 
 ## Built With
 
